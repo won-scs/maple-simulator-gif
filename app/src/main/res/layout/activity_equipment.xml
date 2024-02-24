@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7">
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="5dp"
+      android:columnCount="5"
+      android:orientation="horizontal">
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/ring4_slot"
+        style="@style/inventory_base"
+        android:background="?attr/selectableItemBackground" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        style="@style/inventory_base"
+        android:visibility="invisible" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/hat_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        style="@style/inventory_base"
+        android:visibility="invisible" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/emblem_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/ring3_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/pendant2_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/forehead_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        style="@style/inventory_base"
+        android:visibility="invisible" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/badge_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/ring2_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/pendant1_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/eyeAcc_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/earAcc_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/medal_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/ring1_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/weapon_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/clothes_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/shoulder_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/subWeapon_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/poket_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/belt_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/pants_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/gloves_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/cape_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        style="@style/inventory_base"
+        android:visibility="invisible" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        style="@style/inventory_base"
+        android:visibility="invisible" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/shoes_slot"
+        style="@style/inventory_base" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/android_slot"
+        style="@style/inventory_base"
+        android:visibility="invisible" />
+
+      <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+        android:id="@+id/heart_slot"
+        style="@style/inventory_base" />
+    </GridLayout>
+  </ScrollView>
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center">
+    <Button
+      android:id="@+id/equipmentToInventoryBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/orange"
+      android:text="인벤토리"/>
+  </LinearLayout>
+</LinearLayout>

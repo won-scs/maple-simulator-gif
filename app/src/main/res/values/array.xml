@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="jobList">
+    <item>히어로</item>
+    <item>팔라딘</item>
+    <item>다크나이트</item>
+    <item>신궁</item>
+    <item>보우마스터</item>
+    <item>패스파인더</item>
+    <item>아크메이지(썬_콜)</item>
+    <item>아크메이지(불_독)</item>
+    <item>비숍</item>
+    <item>나이트로드</item>
+    <item>섀도어</item>
+    <item>듀얼블레이드</item>
+    <item>바이퍼</item>
+    <item>캡틴</item>
+    <item>캐논슈터</item>
+    <item>소울마스터</item>
+    <item>윈드브레이커</item>
+    <item>플레임위자드</item>
+    <item>나이트워커</item>
+    <item>스트라이커</item>
+    <item>아란</item>
+    <item>메르세데스</item>
+    <item>루미너스</item>
+    <item>에반</item>
+    <item>팬텀</item>
+    <item>은월</item>
+    <item>블래스터</item>
+    <item>와일드헌터</item>
+    <item>배틀메이지</item>
+    <item>제논</item>
+    <item>메카닉</item>
+    <item>아델</item>
+  </string-array>
+
+  <string-array name="wantedOptionTypeList">
+    <item>STR 3줄</item>
+    <item>DEX 3줄</item>
+    <item>INT 3줄</item>
+    <item>LUK 3줄</item>
+    <item>올스탯 3줄</item>
+    <item>올스탯 2줄</item>
+    <item>공격력% 3줄</item>
+    <item>마력% 3줄</item>
+    <item>보보공</item>
+    <item>보보마</item>
+    <item>보보방</item>
+    <item>보공공</item>
+    <item>보마마</item>
+    <item>방공공</item>
+    <item>방마마</item>
+    <item>크힘힘</item>
+    <item>크덱덱</item>
+    <item>크인인</item>
+    <item>크럭럭</item>
+    <item>크크힘</item>
+    <item>크크덱</item>
+    <item>크크인</item>
+    <item>크크럭</item>
+    <item>크크</item>
+    <item>크크크</item>
+    <item>쿨힘힘</item>
+    <item>쿨덱덱</item>
+    <item>쿨인인</item>
+    <item>쿨럭럭</item>
+    <item>쿨쿨힘</item>
+    <item>쿨쿨덱</item>
+    <item>쿨쿨인</item>
+    <item>쿨쿨럭</item>
+    <item>쿨쿨쿨</item>
+    <item>쿨쿨</item>
+  </string-array>
+
+  <string-array name="wantedOptionValueListDefault">
+    <item>-</item>
+  </string-array>
+
+  <string-array name="wantedOptionValueList30_33_36">
+    <item>27% 이상</item>
+    <item>30% 이상</item>
+    <item>33% 이상</item>
+    <item>36% 이상</item>
+    <item>39% 이상</item>
+  </string-array>
+
+  <string-array name="wantedExtraOptionList">
+    <item>STR</item>
+    <item>DEX</item>
+    <item>INT</item>
+    <item>LUK</item>
+    <item>공격력</item>
+    <item>마력</item>
+  </string-array>
+
+  <string-array name="wantedExtraValueList">
+    <item>120급</item>
+    <item>130급</item>
+    <item>140급</item>
+    <item>150급</item>
+    <item>160급</item>
+    <item>170급</item>
+    <item>180급</item>
+    <item>190급</item>
+    <item>200급</item>
+    <item>210급</item>
+    <item>220급</item>
+    <item>230급</item>
+  </string-array>
+
+  <string-array name="wantedExtraValueList2">
+    <item>1추옵</item>
+  </string-array>
+  
+  <string-array name="amazingPosChaosList">
+    <item>놀라운 긍정의 혼돈 주문서(100%)</item>
+    <item>놀라운 긍정의 혼돈 주문서(100%, 리턴 스크롤)</item>
+    <item>놀라운 긍정의 혼돈 주문서(60%)</item>
+    <item>놀라운 긍정의 혼돈 주문서(60%, 리턴 스크롤)</item>
+  </string-array>
+
+  <string-array name="innocentList">
+    <item>이노센트 주문서(100%)</item>
+    <item>이노센트 주문서(30%)</item>
+    <item>아크 이노센트 주문서(100%)</item>
+    <item>아크 이노센트 주문서(30%)</item>
+  </string-array>
+  
+  <string-array name="pureWhiteList">
+    <item>순백의 주문서(100%)</item>
+    <item>순백의 주문서(10%)</item>
+  </string-array>
+
+  <string-array name="goldHammerList">
+    <item>황금망치(100%)</item>
+    <item>황금망치(50%)</item>
+  </string-array>
+
+  <string-array name="magicalList">
+    <item>매지컬 공격력 주문서(100%)</item>
+    <item>매지컬 공격력 주문서(100%, 리턴 스크롤)</item>
+    <item>매지컬 마력 주문서(100%)</item>
+    <item>매지컬 마력 주문서(100%, 리턴 스크롤)</item>
+  </string-array>
+
+  <string-array name="traceSpellWeaponWarriorList">
+    <item>100% 공격력(힘) 주문서</item>
+    <item>70% 공격력(힘) 주문서</item>
+    <item>30% 공격력(힘) 주문서</item>
+    <item>15% 공격력(힘) 주문서</item>
+    <item>100% 공격력(체력) 주문서</item>
+    <item>70% 공격력(체력) 주문서</item>
+    <item>30% 공격력(체력) 주문서</item>
+    <item>15% 공격력(체력) 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellWeaponArcherList">
+    <item>100% 공격력(민첩) 주문서</item>
+    <item>70% 공격력(민첩) 주문서</item>
+    <item>30% 공격력(민첩) 주문서</item>
+    <item>15% 공격력(민첩) 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellWeaponMagicianList">
+    <item>100% 마력(지능) 주문서</item>
+    <item>70% 마력(지능) 주문서</item>
+    <item>30% 마력(지능) 주문서</item>
+    <item>15% 마력(지능) 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellWeaponChiefList">
+    <item>100% 공격력(행운) 주문서</item>
+    <item>70% 공격력(행운) 주문서</item>
+    <item>30% 공격력(행운) 주문서</item>
+    <item>15% 공격력(행운) 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellWeaponPirateList">
+    <item>100% 공격력(힘) 주문서</item>
+    <item>70% 공격력(힘) 주문서</item>
+    <item>30% 공격력(힘) 주문서</item>
+    <item>15% 공격력(힘) 주문서</item>
+    <item>100% 공격력(민첩) 주문서</item>
+    <item>70% 공격력(민첩) 주문서</item>
+    <item>30% 공격력(민첩) 주문서</item>
+    <item>15% 공격력(민첩) 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellWeaponCommonList">
+    <item>100% 공격력(힘) 주문서</item>
+    <item>70% 공격력(힘) 주문서</item>
+    <item>30% 공격력(힘) 주문서</item>
+    <item>15% 공격력(힘) 주문서</item>
+    <item>100% 공격력(민첩) 주문서</item>
+    <item>70% 공격력(민첩) 주문서</item>
+    <item>30% 공격력(민첩) 주문서</item>
+    <item>15% 공격력(민첩) 주문서</item>
+    <item>100% 마력(지능) 주문서</item>
+    <item>70% 마력(지능) 주문서</item>
+    <item>30% 마력(지능) 주문서</item>
+    <item>15% 마력(지능) 주문서</item>
+    <item>100% 공격력(행운) 주문서</item>
+    <item>70% 공격력(행운) 주문서</item>
+    <item>30% 공격력(행운) 주문서</item>
+    <item>15% 공격력(행운) 주문서</item>
+    <item>100% 공격력(체력) 주문서</item>
+    <item>70% 공격력(체력) 주문서</item>
+    <item>30% 공격력(체력) 주문서</item>
+    <item>15% 공격력(체력) 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellNoWeaponWarriorList">
+    <item>100% 힘 주문서</item>
+    <item>70% 힘 주문서</item>
+    <item>30% 힘 주문서</item>
+    <item>15% 힘 주문서</item>
+    <item>100% 체력 주문서</item>
+    <item>70% 체력 주문서</item>
+    <item>30% 체력 주문서</item>
+    <item>15% 체력 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellNoWeaponArcherList">
+    <item>100% 민첩 주문서</item>
+    <item>70% 민첩 주문서</item>
+    <item>30% 민첩 주문서</item>
+    <item>15% 민첩 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellNoWeaponMagicianList">
+    <item>100% 지능 주문서</item>
+    <item>70% 지능 주문서</item>
+    <item>30% 지능 주문서</item>
+    <item>15% 지능 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellNoWeaponChiefList">
+    <item>100% 행운 주문서</item>
+    <item>70% 행운 주문서</item>
+    <item>30% 행운 주문서</item>
+    <item>15% 행운 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellNoWeaponPirateList">
+    <item>100% 힘 주문서</item>
+    <item>70% 힘 주문서</item>
+    <item>30% 힘 주문서</item>
+    <item>15% 힘 주문서</item>
+    <item>100% 민첩 주문서</item>
+    <item>70% 민첩 주문서</item>
+    <item>30% 민첩 주문서</item>
+    <item>15% 민첩 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellNoWeaponCommonList">
+    <item>100% 힘 주문서</item>
+    <item>70% 힘 주문서</item>
+    <item>30% 힘 주문서</item>
+    <item>15% 힘 주문서</item>
+    <item>100% 민첩 주문서</item>
+    <item>70% 민첩 주문서</item>
+    <item>30% 민첩 주문서</item>
+    <item>15% 민첩 주문서</item>
+    <item>100% 지능 주문서</item>
+    <item>70% 지능 주문서</item>
+    <item>30% 지능 주문서</item>
+    <item>15% 지능 주문서</item>
+    <item>100% 행운 주문서</item>
+    <item>70% 행운 주문서</item>
+    <item>30% 행운 주문서</item>
+    <item>15% 행운 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellGlovesAtkList">
+    <item>100% 공격력 주문서</item>
+    <item>70% 공격력 주문서</item>
+    <item>30% 공격력 주문서</item>
+    <item>15% 공격력 주문서</item>
+  </string-array>
+
+  <string-array name="traceSpellGlovesSplList">
+    <item>100% 마력 주문서</item>
+    <item>70% 마력 주문서</item>
+    <item>30% 마력 주문서</item>
+    <item>15% 마력 주문서</item>
+  </string-array>
+  
+  <string-array name="amazEnforceList">
+    <item>놀라운 장비강화 주문서(리커버리 실드)</item>
+    <item>놀라운 장비강화 주문서(리커버리 실드, 프로텍트 실드)</item>
+  </string-array>
+
+  <string-array name="miracleList">
+    <item>미라클 방어구 공격력 주문서 50%</item>
+    <item>미라클 방어구 마력 주문서 50%</item>
+  </string-array>
+</resources>

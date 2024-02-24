@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Maple_Simulator</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="amazing_pos_chaos">놀긍혼</string>
+  <string name="amazing_enforce">놀장강</string>
+  <string name="magical">매지컬</string>
+  <string name="miracle">미라클</string>
+  <string name="pure_white">순백</string>
+  <string name="innocent">이노센트</string>
+  <string name="trace_spell">주흔</string>
+  <string name="gold_hammer">황금망치</string>
+</resources>

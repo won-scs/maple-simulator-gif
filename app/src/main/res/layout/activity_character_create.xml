@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:id="@+id/CharacterCreateScreen"
+  android:orientation="vertical">
+  <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+    android:id="@+id/skeletonAnimation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="직업: "/>
+    <Spinner
+      android:id="@+id/jobList"
+      android:gravity="right"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="닉네임: "/>
+    <EditText
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/CharacterNicknameInput"
+      android:autofillHints="name"
+      android:inputType="text"
+      android:maxLength="6"
+      tools:ignore="LabelFor" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/orange"
+      android:id="@+id/CharacterCreateConfirmBtn"
+      android:text="결정"/>
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/orange"
+      android:layout_marginStart="20dp"
+      android:id="@+id/CharacterCreateCancelBtn"
+      android:text="취소"/>
+  </LinearLayout>
+</LinearLayout>

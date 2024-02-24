@@ -1,0 +1,1 @@
+package com.maple_simulator_and_enchantor.adapter_and_ui

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_weight="10"
+    tools:ignore="UselessParent, Suspicious0dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+          android:id="@+id/starForceImg1"
+          android:layout_width="70dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/star5_5" />
+
+        <ImageView
+          android:id="@+id/starForceImg2"
+          android:layout_width="70dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/star5_5" />
+
+        <ImageView
+          android:id="@+id/starForceImg3"
+          android:layout_width="70dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/star5_5" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+          android:id="@+id/starForceImg4"
+          android:layout_width="70dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/star5_5" />
+
+        <ImageView
+          android:id="@+id/starForceImg5"
+          android:layout_width="70dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/star2_5" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+          android:gravity="center"
+          android:id="@+id/itemNameText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="20dp"
+          android:textSize="32sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        tools:ignore="Rt lSymmetry">
+        <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+          android:id="@+id/itemActivityItemImage"
+          android:background="@drawable/inventory_real_base1"
+          android:layout_margin="5dp"
+          android:layout_width="100dp"
+          android:layout_height="match_parent"
+          android:src="@drawable/adele" />
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:paddingRight="10dp"
+          android:orientation="vertical">
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="스탯공격력 증가량"
+            android:textSize="16sp"
+            android:gravity="right|center"
+            android:layout_weight="1"/>
+          <TextView
+            android:id="@+id/statAtkText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="32sp"
+            android:text="2"
+            android:gravity="right" />
+        </LinearLayout>
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+          android:id="@+id/equipTypeJobText"
+          android:background="@drawable/inventory_real_base1"
+          android:layout_margin="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:bufferType="spannable" />
+
+        <TextView
+          android:id="@+id/equipInfoText"
+          android:background="@drawable/inventory_real_base1"
+          android:layout_margin="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:bufferType="spannable" />
+
+        <TextView
+          android:id="@+id/equipAbilityText"
+          android:background="@drawable/inventory_real_base1"
+          android:layout_margin="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:bufferType="spannable" />
+
+        <TextView
+          android:id="@+id/setOptionText"
+          android:background="@drawable/inventory_real_base1"
+          android:layout_margin="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:bufferType="spannable" />
+
+        <TextView
+          android:id="@+id/equipUseMoneyText"
+          android:background="@drawable/inventory_real_base1"
+          android:layout_margin="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:bufferType="spannable" />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|bottom">
+
+    <Button
+      android:id="@+id/itemTooptionChoiceBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/orange"
+      android:text="추가옵션" />
+
+    <Button
+      android:id="@+id/itemToEnchantBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:backgroundTint="@color/orange"
+      android:text="주문서" />
+
+    <Button
+      android:id="@+id/itemToStarForceBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:backgroundTint="@color/orange"
+      android:text="스타포스" />
+
+    <Button
+      android:id="@+id/itemToPotentialBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/orange"
+      android:text="잠재옵션" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <FrameLayout
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:gravity="center">
+
+      <Button
+        android:id="@+id/equipmentWearBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/orange"
+        android:text="장비 착용" />
+
+      <Button
+        android:id="@+id/equipmentTakeOffBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/orange"
+        android:text="착용 해제" />
+    </FrameLayout>
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:gravity="center">
+
+      <Button
+        android:id="@+id/equipmentDeleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/orange"
+        android:text="장비 삭제" />
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>
