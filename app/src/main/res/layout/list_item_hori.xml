@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="match_parent"
+  android:layout_marginHorizontal="2dp"
+  android:orientation="vertical">
+
+  <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView2
+    android:id="@+id/list_item_img"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:padding="10dp"
+    android:src="@drawable/adele"/>
+
+  <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView2
+    android:id="@+id/checkBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:src="@drawable/red_check"
+    android:padding="15dp"
+    android:visibility="invisible"/>
+
+  <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView2
+    android:id="@+id/list_item_base"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/inventory_real_base1"/>
+
+</FrameLayout>

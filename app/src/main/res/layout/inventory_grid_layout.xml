@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="2dp"
+  android:orientation="vertical">
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+      android:id="@+id/background"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+    <com.maple_simulator_and_enchantor.adapter_and_ui.SquareImageView
+      android:id="@+id/itemImage"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:background="?attr/selectableItemBackground"
+      android:padding="10dp"/>
+  </FrameLayout>
+
+</LinearLayout>

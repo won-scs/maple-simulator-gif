@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+  <domain-config cleartextTrafficPermitted="false"
+    tools:ignore="NetworkSecurityConfig">
+    <domain includeSubdomains="true">https://github.com/won-scs/maple-simulator/blob/main/adele.gif</domain>
+  </domain-config>
+</network-security-config>

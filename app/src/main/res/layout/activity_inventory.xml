@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:scrollbars="vertical">
+
+  <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/inventoryList"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="0dp"
+    android:layout_height="0dp"
+    android:layout_weight="9">
+  </androidx.recyclerview.widget.RecyclerView>
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <Button
+      android:id="@+id/equipmentCreateBtn"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:backgroundTint="@color/orange"
+      android:layout_margin="5dp"
+      android:layout_weight="1"
+      android:text="장비 추가"/>
+    <Button
+      android:id="@+id/equipmentTypeSelectBtn"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:backgroundTint="@color/orange"
+      android:layout_margin="5dp"
+      android:layout_weight="1"
+      android:text="장비 보기 설정"/>
+  </LinearLayout>
+
+</LinearLayout>
